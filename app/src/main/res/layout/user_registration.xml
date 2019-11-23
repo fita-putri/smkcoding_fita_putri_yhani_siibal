@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:hint="Alamat"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="match_parent"
+        android:hint="No. HP"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gradasipink"
+        android:layout_gravity="center_horizontal"
+        android:text="Register" />
+
+</LinearLayout>

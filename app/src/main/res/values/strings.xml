@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SIIBAL</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="jadwal">jadwal</string>
+    <string name="makan">makan</string>
+    <string name="info">Info</string>
+</resources>
